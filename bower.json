@@ -1,0 +1,17 @@
+{
+  "name": "ClassJS",
+  "main": "class.js",
+  "homepage": "https://github.com/agustincarmona/class.js",
+  "authors": [
+    "Agustín Carmona Díaz <agustin.carmona@gmail.com>"
+  ],
+  "description": "Simulate class",
+  "keywords": [
+    "Javascript",
+    "Class"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jQuery": ">=1.4.3"
+  }
+}
