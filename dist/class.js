@@ -3,7 +3,14 @@ File: Class.js
 Date: 2016/08/21
 */
 
-(function(namespace){
+(function(){
+
+    namespace = {};
+    if (typeof exports != "undefined") {
+        namespace = exports;
+    } else if (typeof window != "undefined") {
+        namespace = window;
+    }
 
     extendobj = Object.assign == undefined ? jQuery : Object;
     extendfn = Object.assign == undefined ? jQuery.extend : Object.assign;
@@ -36,4 +43,4 @@ Date: 2016/08/21
         }
     }
 
-}(exports || window || {}));
+}());
